@@ -14,14 +14,9 @@ export function Card() {
         gyroscope={true}
         tiltAngleXInitial={-5}
         tiltAngleYInitial={-15}
-        glareEnable={true}
-        glarePosition="all"
-        glareBorderRadius="12"
         perspective={800}
-        glareMaxOpacity={0.4}
         trackOnWindow={true}
         reset={false}
-        glareColor="#f5c3fd"
       >
         <div className={styles["card-inner"]}>
           <div className={styles["info-container"]}>

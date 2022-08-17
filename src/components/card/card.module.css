@@ -79,9 +79,11 @@ img {
   transition: all 0.25s ease-out;
 }
 
-.link:hover {
-  transform: scale(1.1);
-  transition: all 0.25s ease-out;
+@media (hover: hover) and (pointer: fine) {
+  .link:hover {
+    transform: scale(1.1);
+    transition: all 0.25s ease-out;
+  }
 }
 
 @media screen and (min-width: 300px) {

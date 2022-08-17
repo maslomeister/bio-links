@@ -45,7 +45,8 @@ img {
 .info-desc {
   display: flex;
   flex-direction: column;
-  padding-top: 24px;
+  justify-content: center;
+  /* padding-top: 24px; */
   gap: 8px;
   flex-basis: 60%;
   line-height: 1.1;
@@ -82,6 +83,7 @@ img {
 @media screen and (min-width: 300px) {
   .card {
     width: 100%;
+    max-width: 600px;
   }
 
   .links {

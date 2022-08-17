@@ -3,6 +3,7 @@ import Tilt from "react-parallax-tilt";
 
 import photo from "@/assets/images/photo.png";
 import cv from "@/assets/cv.pdf";
+
 import styles from "./card.module.css";
 
 export function Card() {
@@ -19,6 +20,7 @@ export function Card() {
         perspective={800}
         glareMaxOpacity={0.4}
         trackOnWindow={true}
+        reset={false}
         glareColor="#f5c3fd"
       >
         <div className={styles["card-inner"]}>

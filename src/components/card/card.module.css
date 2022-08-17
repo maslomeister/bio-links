@@ -46,7 +46,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding-top: 24px; */
   gap: 8px;
   flex-basis: 60%;
   line-height: 1.1;

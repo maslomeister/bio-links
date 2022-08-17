@@ -18,7 +18,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: #ede4f7;
-  /* background: linear-gradient(-45deg, #ede4f7, #f9dbfd, #e4bbfd, #d3defc); */
   background-size: 400% 400%;
   animation: gradient 1s ease infinite;
 

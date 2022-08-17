@@ -16,7 +16,7 @@ export function Card() {
         glareEnable={true}
         glarePosition="all"
         glareBorderRadius="12"
-        perspective={1000}
+        perspective={800}
         glareMaxOpacity={0.4}
         trackOnWindow={true}
         glareColor="#f5c3fd"
@@ -32,21 +32,29 @@ export function Card() {
             </div>
           </div>
           <div className={styles["links"]}>
-            <a href={cv} target={"_blank"}>
-              VIEW CV
-            </a>
-            <a href="https://github.com/maslomeister" target={"_blank"}>
-              GITHUB
-            </a>
-            <a
-              href="https://www.linkedin.com/in/maslomeister/"
-              target={"_blank"}
-            >
-              LINKEDIN
-            </a>
-            <a href="https://t.me/maslomeister" target={"_blank"}>
-              TELEGRAM
-            </a>
+            <div className={styles["link"]}>
+              <a href={cv} target={"_blank"}>
+                VIEW CV
+              </a>
+            </div>
+            <div className={styles["link"]}>
+              <a href="https://github.com/maslomeister" target={"_blank"}>
+                GITHUB
+              </a>
+            </div>
+            <div className={styles["link"]}>
+              <a
+                href="https://www.linkedin.com/in/maslomeister/"
+                target={"_blank"}
+              >
+                LINKEDIN
+              </a>
+            </div>
+            <div className={styles["link"]}>
+              <a href="https://t.me/maslomeister" target={"_blank"}>
+                TELEGRAM
+              </a>
+            </div>
           </div>
         </div>
       </Tilt>

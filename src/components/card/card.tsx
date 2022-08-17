@@ -13,7 +13,7 @@ export function Card() {
         className={styles["card"]}
         gyroscope={true}
         tiltAngleXInitial={-5}
-        tiltAngleYInitial={-20}
+        tiltAngleYInitial={-15}
         glareEnable={true}
         glarePosition="all"
         glareBorderRadius="12"

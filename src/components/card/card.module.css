@@ -5,22 +5,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 12px;
-  z-index: 1;
+  transform: translateZ(60px);
+  z-index: 100;
 }
 
 .card {
   margin: 24px;
   padding: 24px;
-  backdrop-filter: blur(10px) saturate(133%);
+
+  /* backdrop-filter: blur(10px) saturate(133%);
   -webkit-backdrop-filter: blur(10px) saturate(133%);
-  background-color: rgba(102, 0, 255, 0.15);
+  border-radius: 12px; */
+  background-color: rgba(102, 0, 255, 0.4);
   -webkit-box-shadow: 2px 10px 50px 11px rgba(0, 0, 0, 0.2);
   box-shadow: 2px 10px 50px 11px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
+  z-index: 1;
   border: 2px solid rgba(102, 0, 255, 0.089);
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 .card-inner {
@@ -67,7 +72,7 @@ img {
   padding: 16px;
   backdrop-filter: blur(10px) saturate(133%);
   -webkit-backdrop-filter: blur(10px) saturate(133%);
-  background-color: rgba(230, 217, 250, 0.25);
+  background-color: rgba(221, 201, 250, 0.5);
   border-radius: 12px;
   border: 2px solid rgba(102, 0, 255, 0.089);
   transform: translateZ(60px);

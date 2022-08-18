@@ -56,7 +56,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 36px 24px;
   transform: translateZ(250px);
 }
 
@@ -80,7 +79,7 @@ img {
   }
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 250px) {
   .card {
     width: 100%;
     max-width: 600px;
@@ -88,6 +87,19 @@ img {
 
   .links {
     gap: 24px;
+    padding: 12px 0px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .card {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .links {
+    gap: 24px;
+    padding: 12px 24px;
   }
 }
 

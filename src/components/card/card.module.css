@@ -99,7 +99,7 @@ img {
 
   .links {
     gap: 24px;
-    padding: 12px 24px;
+    padding: 36px 24px;
   }
 }
 
@@ -110,5 +110,11 @@ img {
 
   .links {
     gap: 32px;
+  }
+}
+
+@media (min-aspect-ratio: 4/3) {
+  .card-container {
+    transform: scale(0.75);
   }
 }

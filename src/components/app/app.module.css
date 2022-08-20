@@ -28,7 +28,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  animation: animate 25s linear infinite;
+  animation: animate 50s linear infinite;
   pointer-events: none;
 }
 
@@ -82,7 +82,7 @@
   width: 500px;
   height: 500px;
   bottom: -65%;
-  animation-duration: 35s;
+  animation-duration: 50s;
   animation-delay: 2s;
   z-index: -100;
 }
@@ -95,7 +95,7 @@
   width: 50px;
   height: 50px;
   bottom: -30%;
-  animation-duration: 12s;
+  animation-duration: 30s;
   animation-delay: 7s;
   z-index: -100;
 }
@@ -108,7 +108,7 @@
   width: 70px;
   height: 70px;
   bottom: -30%;
-  animation-duration: 20s;
+  animation-duration: 35s;
   animation-delay: 5s;
   z-index: -100;
 }
@@ -121,7 +121,7 @@
   width: 350px;
   height: 350px;
   bottom: -45%;
-  animation-duration: 27s;
+  animation-duration: 45s;
   animation-delay: 3s;
   z-index: -100;
 }
@@ -134,7 +134,7 @@
   width: 600px;
   height: 600px;
   bottom: -55%;
-  animation-duration: 31s;
+  animation-duration: 38s;
   animation-delay: 1s;
   z-index: -100;
 }
@@ -147,7 +147,7 @@
   width: 30px;
   height: 30px;
   bottom: -10%;
-  animation-duration: 16s;
+  animation-duration: 31s;
   animation-delay: 4s;
   z-index: 1;
 }
@@ -160,7 +160,7 @@
   width: 30px;
   height: 30px;
   bottom: -10%;
-  animation-duration: 16s;
+  animation-duration: 30s;
   animation-delay: 4s;
   z-index: 1;
 }
@@ -173,7 +173,7 @@
   width: 25px;
   height: 25px;
   bottom: -10%;
-  animation-duration: 18s;
+  animation-duration: 25s;
   animation-delay: 4s;
   z-index: 1;
 }
@@ -186,7 +186,7 @@
   width: 50px;
   height: 50px;
   bottom: -10%;
-  animation-duration: 15s;
+  animation-duration: 27s;
   animation-delay: 8s;
   z-index: 1;
 }
@@ -199,7 +199,7 @@
   width: 400px;
   height: 400px;
   bottom: -55%;
-  animation-duration: 22s;
+  animation-duration: 38s;
   animation-delay: 10s;
   z-index: 0;
 }
@@ -278,7 +278,7 @@
 
 @keyframes animate {
   0% {
-    transform: translateY(0%);
+    transform: translateY(0);
     opacity: 0.8;
   }
 
@@ -287,7 +287,7 @@
   }
 
   100% {
-    transform: translateY(-120%);
+    transform: translateY(-2000px);
     opacity: 0.5;
   }
 }

@@ -29,7 +29,7 @@ export function Card() {
           </div>
           <div className={styles["links"]}>
             <div className={styles["link"]}>
-              <a href={"public/Nikita-Maslov-Frontend-EN.pdf"} target={"_blank"}>
+              <a href={"/Nikita-Maslov-Frontend-EN.pdf"} target={"_blank"}>
                 VIEW CV
               </a>
             </div>

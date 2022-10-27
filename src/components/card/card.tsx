@@ -2,7 +2,6 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 
 import photo from "@/assets/images/photo.png";
-import cv from "@/assets/cv.pdf";
 
 import styles from "./card.module.css";
 
@@ -30,7 +29,7 @@ export function Card() {
           </div>
           <div className={styles["links"]}>
             <div className={styles["link"]}>
-              <a href={cv} target={"_blank"}>
+              <a href={"public/Nikita-Maslov-Frontend-EN.pdf"} target={"_blank"}>
                 VIEW CV
               </a>
             </div>
@@ -40,10 +39,7 @@ export function Card() {
               </a>
             </div>
             <div className={styles["link"]}>
-              <a
-                href="https://www.linkedin.com/in/maslomeister/"
-                target={"_blank"}
-              >
+              <a href="https://www.linkedin.com/in/maslomeister/" target={"_blank"}>
                 LINKEDIN
               </a>
             </div>
